@@ -1,0 +1,91 @@
+body {
+	font-family: 'Zen Old Mincho', serif;
+	background-color: #c9dce4cf;
+	text-align: center;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 48px;
+}
+
+h2 {
+	color: dimgrey;
+}
+
+.intro img {
+	border-radius: 80px;
+	width: 150px;
+	height: 200px;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ul li p {
+	font-family: fantasy;
+}
+
+ul li a {
+	color: slategrey;
+	transition: font-size 0.3s ease;
+}
+
+a:hover {
+	font-size: 20px;
+}
+
+.container {
+	width: 700px;
+	margin: 0px auto;
+}
+
+.media ul li {
+	display: inline;
+}
+
+.media ul li img{
+	width: 100px;
+	height: 100px;
+}
+
+.intro {
+	background-color: ghostwhite;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.places {
+	background-color: ghostwhite;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.articles {
+	background-color: ghostwhite;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.media {
+	background-color: ghostwhite;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+@media (max-width: 600px) {
+	.container{
+		width: 500px;
+}
+}
